@@ -1,0 +1,225 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+img {
+  width:100%;
+  height: auto;
+  background-image:  url(images/banner2.jpg),  ;
+  background-repeat: no-repeat, repeat;
+  padding: 0;
+}
+header{
+  background-color: rgb(181, 187, 189);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+  text-decoration: none;
+  color: #1a1a19;
+  line-height: 70px;
+}
+header h1{
+  font-size: 2.5em;
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #1a1a19;
+  text-align: center;
+}
+/*Navigation Bar*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+  max-width: 100%;
+  background: #333;
+  overflow: auto;
+  height: 71px;
+}
+nav ul{
+  list-style: none;
+  margin: 0 0 0 150px;
+  padding: 0;
+  float: right;
+}
+li{
+  float: left;
+  margin-top: 9px;
+}
+.logo img{
+  position: absolute;
+  max-width: 90px;
+  margin: 0 15px;
+  height: 70px;
+}
+nav a{
+  max-width: 100%;
+  display: block;
+  padding: 20px 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+nav a:hover{
+  background: #eb8e0c;
+  transition: 0.5s;
+  height: auto;
+  text-decoration: Uppercase;
+}
+.pageStyle{
+  background-color: #414077;
+  margin-bottom: 10px;
+}
+/*navbar end*/
+
+header{
+  background: #8fe5ef;
+  padding: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.box{
+  margin: 30px 20px;
+  border: #eb8e0c solid 3px;
+  box-shadow: #eb8e0c;
+  text-align: center;
+}
+.box h2{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.6em;
+  color: bisque;
+  text-align: center;
+  margin: 10px 20px;
+}
+.box p{
+  margin: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
+/*turtle 5*/
+.box-container{
+  margin: 20px;
+  background-color: #83f0eac4;
+  border-radius: 6px;
+  border: #333 solid 1px;
+  box-shadow: #181817;
+}
+.box-container p{
+  margin: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  max-width: 100%;
+}
+.box-container h2{
+  margin-left: 20px;
+}
+
+
+
+/*turtle 6*/
+.container{
+   max-width: 100%;
+   margin: 10px 20px;
+   background-color: antiquewhite;
+   float: left;
+}
+.container h3{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  color: rgb(231, 118, 69);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container p{
+  margin: 10px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+iframe{
+  margin: 60px;
+  max-width: 100%;
+}
+.polaroid{
+  background-color: white;
+  margin:auto ;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.20);
+  padding: 10px;
+  width: 50%;
+ height: fit-content;
+}
+/*turtle 6 end*/
+  
+/*footer*/
+.footer{
+  margin-bottom: -175px;
+  clear: both;
+  margin-top: -5px;
+  padding: 55px 9% 50px;
+  background-color: rgb(48, 45, 45);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  }
+  #social{
+  overflow: hidden;
+  float: left;
+  display: inline;
+  width: auto;
+  margin: 0 15px 15px 0;
+  line-height: 1.6em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
+  .social h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(159, 186, 204);
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 1.6em;
+  }
+  .social a{
+  display: block;
+  color: rgb(102, 125, 131);  
+  margin-left: 20px; 
+  margin-top: 8px;
+  }
+  .social-icon i{
+  margin-right: 10px;
+  font-size: 2em;
+  margin-left: 15px;
+  margin-top: 10px;
+  color: #4d7474;
+  }
+  .copywrite-logo{
+    margin: 25px 30px;
+  }
+  .copywrite{
+  text-align: center;
+  color: aliceblue;
+  line-height: 2em;
+  padding: 30px;
+  }
+  .copywrite p{
+    color: #69b9eb;
+  }
+  .designer{
+    opacity: 0.7;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0px 5px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 600px) {
+    .footer .social{
+      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+    .footer .copywrite{
+      text-align: center;      
+      font-size: 1.2em;
+    }
+  }
+  /*footer end*/
+
