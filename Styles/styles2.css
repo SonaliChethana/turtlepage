@@ -350,7 +350,7 @@ div.animation {
   max-width: 100%;
   height: auto;
 }
- .submit {
+ .submit button{
   margin: 20px 40px;
   color: #acc255;
   background-color: rgb(255, 102, 0);
